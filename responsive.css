@@ -1,0 +1,190 @@
+/* header section */
+  @media(width<1024px){
+   
+    nav{
+        left: 8%;
+        right: 10%;
+       
+      }
+    .menu{
+      gap: 12px;
+    }
+    .link-hover{
+      font-size: 12px;
+    }
+  }
+
+   @media(max-width:767px){
+  .open-btn{
+    top: 15px;
+    right: 12%;
+    position: absolute;
+    display: block;
+  }
+  .close-btn{
+    display: block;
+    font-size: 32px;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    margin: 0 20px;
+   
+  }
+  .link-hover{
+    font-size: 14px;
+  }
+  .menu{
+    flex-direction: column;
+    position: fixed;
+    background: #000;
+    width: 60%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    padding: 50px;
+    gap: 44px;
+    overflow-y: scroll;
+
+  }
+  .menu-active{
+    left: -100%;
+  }
+  .link-hover{
+    color: wheat;
+    font-weight: 600;
+    letter-spacing:0;
+  }
+  .dropdown-title{
+    gap: 10px;
+    
+  }
+  .dropdown-title i{
+    color: #fff;
+  }
+
+  .dropdown-content{
+    position: relative;
+    
+    color: #fff;
+    min-width: 50vw;
+    top: 0;
+  }
+
+  /* hero section */
+  .info{
+      flex-direction: column;
+    }
+/* hero content */
+   .hero-content h1 {
+      font-size: 2rem;
+    }
+
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px 20px;
+    }
+
+    .form-box {
+      flex-direction: column;
+    }
+    /* service section */
+      .title {
+      font-size: 24px;
+    }
+    .card {
+      max-width: 100%;
+    }
+    /* honeymoon section */
+     .honeymoon {
+      flex-direction: column;
+    }
+  
+    .honeymoon-images {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  
+    .honeymoon-images .main-img {
+      border-radius: 30px;
+    }
+
+    /* booking trip section */
+     .image-872{
+    width: 200px;
+    top: -100px;
+    left: 60px;
+  }
+  /* tower section */
+    .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* explore image */
+  .image-box {
+      width: 100%;
+    }
+
+    /* explore section */
+     .section-title {
+    font-size: 1.8rem;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-desc {
+    font-size: 0.8rem;
+  }
+
+  .explore-btn {
+    font-size: 0.85rem;
+    padding: 8px 14px;
+  }
+
+  }
+
+  /* image section */
+  @media(width<600px){
+    .image-section{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+ 
+  }
+
+  /* tower section */
+  @media(max-width:1180px){
+  .left{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .right{
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+/* package section */
+@media (max-width: 480px) {
+  .packages-section {
+    padding: 40px 10px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .card-img {
+    height: 160px;
+  }
+}
